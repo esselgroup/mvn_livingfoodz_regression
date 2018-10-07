@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [mvn_livingfoodz.Testinglf]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="mvn_livingfoodz.Testinglf">
+        <methods>
+          <include name="chefProfileOurChefs"/>
+          <include name="showOurHosts"/>
+          <include name="reviewMumbai"/>
+          <include name="storyDishup"/>
+          <include name="recipeOnCardChefRedirection"/>
+          <include name="termsOfUse"/>
+          <include name="HowToSubLinkTipsTricks"/>
+          <include name="recipeLanding1"/>
+          <include name="ChefProfileFBComments"/>
+          <include name="BackfromStoryDetail"/>
+          <include name="storyPopCulture"/>
+          <include name="PeopleSubLinkChefandHost"/>
+          <include name="howToCarousel"/>
+          <include name="reviewOther"/>
+          <include name="showSubLinkShowOnLF"/>
+          <include name="storyDetail"/>
+          <include name="howToKitchenHacks"/>
+          <include name="StorySublinkEntertainment"/>
+          <include name="reviewCarousel"/>
+          <include name="reviewBangalore"/>
+          <include name="showdetailArticleAboutShow"/>
+          <include name="recipeSublinksRecipeOfTheDay"/>
+          <include name="storyEntertainment"/>
+          <include name="showdetailOurHosts"/>
+          <include name="storyDetailRelatedStories"/>
+          <include name="crazyEgg"/>
+          <include name="recipeOurChef"/>
+          <include name="storyLanding"/>
+          <include name="showCarousel"/>
+          <include name="showOnLf"/>
+          <include name="stayConnectedFacebook"/>
+          <include name="stayConnectedTwitter"/>
+          <include name="showdetailComments"/>
+          <include name="PeopleSubLinkScoop"/>
+          <include name="StorySublinkDishUp"/>
+          <include name="recipeCarousel"/>
+          <include name="reviewSubLinkBangalore"/>
+          <include name="stayConnectedInsta"/>
+          <include name="recipeDetail"/>
+          <include name="showSubLinkTrendingonLF"/>
+          <include name="StorySublinkHealth"/>
+          <include name="showdetail_All_Shows"/>
+          <include name="peopleLanding"/>
+          <include name="reviewSubLinkDelhi"/>
+          <include name="homeTrendingOnLf"/>
+          <include name="reviewPune"/>
+          <include name="storyDetailsComments"/>
+          <include name="homeAllShows"/>
+          <include name="aboutLF"/>
+          <include name="howTo"/>
+          <include name="reviewSubLinkPune"/>
+          <include name="setup"/>
+          <include name="StorySublinkPlace"/>
+          <include name="StorySublinkPopCulture"/>
+          <include name="UCG"/>
+          <include name="recirecipeSublinksCusineType"/>
+          <include name="recipeCusineType"/>
+          <include name="homeCarousel"/>
+          <include name="showDetails"/>
+          <include name="recipeOnCardTagRedirection"/>
+          <include name="peopleScoops"/>
+          <include name="reviewSubLinkMumbai"/>
+          <include name="showdetailTitle"/>
+          <include name="recipeRecipeOftheDay"/>
+          <include name="StorySublinkFood"/>
+          <include name="howToTipsandTricks"/>
+          <include name="storyCarousel"/>
+          <include name="showSubLinkChefHost"/>
+          <include name="showdetailAboutHost"/>
+          <include name="peopleChefHost"/>
+          <include name="recipeOnCardTitleRedirection"/>
+          <include name="showdetailDescription"/>
+          <include name="storyDetailTitle"/>
+          <include name="HowToSubLinkKitchenHacks"/>
+          <include name="recirecipeSublinksOurChef"/>
+          <include name="reviewDelhi"/>
+          <include name="peopleCarousel"/>
+          <include name="teardown"/>
+          <include name="reviewLanding"/>
+          <include name="search"/>
+          <include name="storyHealth"/>
+          <include name="ChefProfileRecipeByChef"/>
+          <include name="reviewSubLinkOther"/>
+          <include name="showTrendingOnLF"/>
+          <include name="googleAnaliticsCode"/>
+          <include name="faceBookCode"/>
+          <include name="storyPlaces"/>
+          <include name="showLanding1"/>
+          <include name="ChefProfile"/>
+          <include name="recipeOnCardDecRedirection"/>
+          <include name="storyFoodplusplus"/>
+        </methods>
+      </class> <!-- mvn_livingfoodz.Testinglf -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [mvn_livingfoodz.Testinglf] -->

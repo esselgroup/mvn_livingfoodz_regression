@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="9" ignored="9" total="104" passed="86">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="333873" started-at="2018-10-07T09:35:08Z" finished-at="2018-10-07T09:40:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="333873" started-at="2018-10-07T09:35:08Z" finished-at="2018-10-07T09:40:42Z">
+      <class name="mvnproject.Testinglf">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mvnproject.Testinglf@68be2bc2]" name="setup" is-config="true" duration-ms="3813" started-at="2018-10-07T15:05:08Z" finished-at="2018-10-07T15:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="accessWebsite()[pri:1, instance:mvnproject.Testinglf@68be2bc2]" name="accessWebsite" duration-ms="9337" started-at="2018-10-07T15:05:12Z" finished-at="2018-10-07T15:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessWebsite -->
+        <test-method status="PASS" signature="facebookLogin()[pri:2, instance:mvnproject.Testinglf@68be2bc2]" name="facebookLogin" duration-ms="11659" started-at="2018-10-07T15:05:21Z" finished-at="2018-10-07T15:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="clickprofilelink()[pri:3, instance:mvnproject.Testinglf@68be2bc2]" name="clickprofilelink" duration-ms="1742" started-at="2018-10-07T15:05:33Z" finished-at="2018-10-07T15:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickprofilelink -->
+        <test-method status="PASS" signature="homeFreshPics()[pri:4, instance:mvnproject.Testinglf@68be2bc2]" name="homeFreshPics" duration-ms="3194" started-at="2018-10-07T15:05:35Z" finished-at="2018-10-07T15:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeFreshPics -->
+        <test-method status="PASS" signature="homeRecipeOftheDay()[pri:5, instance:mvnproject.Testinglf@68be2bc2]" name="homeRecipeOftheDay" duration-ms="304" started-at="2018-10-07T15:05:38Z" finished-at="2018-10-07T15:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeRecipeOftheDay -->
+        <test-method status="PASS" signature="homeOurChefs()[pri:6, instance:mvnproject.Testinglf@68be2bc2]" name="homeOurChefs" duration-ms="57" started-at="2018-10-07T15:05:38Z" finished-at="2018-10-07T15:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeOurChefs -->
+        <test-method status="FAIL" signature="homeTrendingOnLf()[pri:7, instance:mvnproject.Testinglf@68be2bc2]" name="homeTrendingOnLf" duration-ms="10128" started-at="2018-10-07T15:05:38Z" finished-at="2018-10-07T15:05:48Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Trending on"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=link text, value=Trending on}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Trending on"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=link text, value=Trending on}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.homeTrendingOnLf(Testinglf.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTrendingOnLf -->
+        <test-method status="PASS" signature="homeAllShows()[pri:8, instance:mvnproject.Testinglf@68be2bc2]" name="homeAllShows" duration-ms="47" started-at="2018-10-07T15:05:48Z" finished-at="2018-10-07T15:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeAllShows -->
+        <test-method status="PASS" signature="recipeLanding1()[pri:9, instance:mvnproject.Testinglf@68be2bc2]" name="recipeLanding1" duration-ms="3220" started-at="2018-10-07T15:05:48Z" finished-at="2018-10-07T15:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeLanding1 -->
+        <test-method status="PASS" signature="recipeRecipeOftheDay()[pri:10, instance:mvnproject.Testinglf@68be2bc2]" name="recipeRecipeOftheDay" duration-ms="36" started-at="2018-10-07T15:05:52Z" finished-at="2018-10-07T15:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeRecipeOftheDay -->
+        <test-method status="PASS" signature="recipeOurChef()[pri:11, instance:mvnproject.Testinglf@68be2bc2]" name="recipeOurChef" duration-ms="33" started-at="2018-10-07T15:05:52Z" finished-at="2018-10-07T15:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeOurChef -->
+        <test-method status="PASS" signature="recipeCusineType()[pri:12, instance:mvnproject.Testinglf@68be2bc2]" name="recipeCusineType" duration-ms="157" started-at="2018-10-07T15:05:52Z" finished-at="2018-10-07T15:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeCusineType -->
+        <test-method status="PASS" signature="recipeDetail()[pri:13, instance:mvnproject.Testinglf@68be2bc2]" name="recipeDetail" duration-ms="12389" started-at="2018-10-07T15:05:52Z" finished-at="2018-10-07T15:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeDetail -->
+        <test-method status="PASS" signature="showLanding1()[pri:15, instance:mvnproject.Testinglf@68be2bc2]" name="showLanding1" duration-ms="2829" started-at="2018-10-07T15:06:04Z" finished-at="2018-10-07T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showLanding1 -->
+        <test-method status="PASS" signature="showOnLf()[pri:16, instance:mvnproject.Testinglf@68be2bc2]" name="showOnLf" duration-ms="115" started-at="2018-10-07T15:06:07Z" finished-at="2018-10-07T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showOnLf -->
+        <test-method status="PASS" signature="showOurHosts()[pri:17, instance:mvnproject.Testinglf@68be2bc2]" name="showOurHosts" duration-ms="33" started-at="2018-10-07T15:06:07Z" finished-at="2018-10-07T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showOurHosts -->
+        <test-method status="PASS" signature="showTrendingOnLF()[pri:18, instance:mvnproject.Testinglf@68be2bc2]" name="showTrendingOnLF" duration-ms="33" started-at="2018-10-07T15:06:07Z" finished-at="2018-10-07T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showTrendingOnLF -->
+        <test-method status="PASS" signature="peopleLanding()[pri:19, instance:mvnproject.Testinglf@68be2bc2]" name="peopleLanding" duration-ms="3297" started-at="2018-10-07T15:06:07Z" finished-at="2018-10-07T15:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleLanding -->
+        <test-method status="PASS" signature="peopleChefHost()[pri:20, instance:mvnproject.Testinglf@68be2bc2]" name="peopleChefHost" duration-ms="117" started-at="2018-10-07T15:06:11Z" finished-at="2018-10-07T15:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleChefHost -->
+        <test-method status="PASS" signature="peopleScoops()[pri:21, instance:mvnproject.Testinglf@68be2bc2]" name="peopleScoops" duration-ms="1035" started-at="2018-10-07T15:06:11Z" finished-at="2018-10-07T15:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleScoops -->
+        <test-method status="PASS" signature="ChefProfile()[pri:22, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfile" duration-ms="7261" started-at="2018-10-07T15:06:12Z" finished-at="2018-10-07T15:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChefProfile -->
+        <test-method status="PASS" signature="ChefProfileRecipeByChef()[pri:23, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfileRecipeByChef" duration-ms="61" started-at="2018-10-07T15:06:19Z" finished-at="2018-10-07T15:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChefProfileRecipeByChef -->
+        <test-method status="PASS" signature="ChefProfileFBComments()[pri:24, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfileFBComments" duration-ms="9" started-at="2018-10-07T15:06:19Z" finished-at="2018-10-07T15:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChefProfileFBComments -->
+        <test-method status="PASS" signature="chefProfileOurChefs()[pri:26, instance:mvnproject.Testinglf@68be2bc2]" name="chefProfileOurChefs" duration-ms="35" started-at="2018-10-07T15:06:19Z" finished-at="2018-10-07T15:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chefProfileOurChefs -->
+        <test-method status="PASS" signature="storyLanding()[pri:27, instance:mvnproject.Testinglf@68be2bc2]" name="storyLanding" duration-ms="2840" started-at="2018-10-07T15:06:19Z" finished-at="2018-10-07T15:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyLanding -->
+        <test-method status="PASS" signature="storyDishup()[pri:28, instance:mvnproject.Testinglf@68be2bc2]" name="storyDishup" duration-ms="62" started-at="2018-10-07T15:06:22Z" finished-at="2018-10-07T15:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDishup -->
+        <test-method status="PASS" signature="storyPopCulture()[pri:29, instance:mvnproject.Testinglf@68be2bc2]" name="storyPopCulture" duration-ms="73" started-at="2018-10-07T15:06:22Z" finished-at="2018-10-07T15:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyPopCulture -->
+        <test-method status="PASS" signature="storyPlaces()[pri:30, instance:mvnproject.Testinglf@68be2bc2]" name="storyPlaces" duration-ms="563" started-at="2018-10-07T15:06:22Z" finished-at="2018-10-07T15:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyPlaces -->
+        <test-method status="PASS" signature="storyEntertainment()[pri:31, instance:mvnproject.Testinglf@68be2bc2]" name="storyEntertainment" duration-ms="475" started-at="2018-10-07T15:06:23Z" finished-at="2018-10-07T15:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyEntertainment -->
+        <test-method status="PASS" signature="storyFoodplusplus()[pri:32, instance:mvnproject.Testinglf@68be2bc2]" name="storyFoodplusplus" duration-ms="456" started-at="2018-10-07T15:06:23Z" finished-at="2018-10-07T15:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyFoodplusplus -->
+        <test-method status="PASS" signature="storyHealth()[pri:33, instance:mvnproject.Testinglf@68be2bc2]" name="storyHealth" duration-ms="417" started-at="2018-10-07T15:06:24Z" finished-at="2018-10-07T15:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyHealth -->
+        <test-method status="PASS" signature="reviewLanding()[pri:34, instance:mvnproject.Testinglf@68be2bc2]" name="reviewLanding" duration-ms="2261" started-at="2018-10-07T15:06:24Z" finished-at="2018-10-07T15:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewLanding -->
+        <test-method status="PASS" signature="reviewMumbai()[pri:35, instance:mvnproject.Testinglf@68be2bc2]" name="reviewMumbai" duration-ms="521" started-at="2018-10-07T15:06:26Z" finished-at="2018-10-07T15:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewMumbai -->
+        <test-method status="PASS" signature="reviewDelhi()[pri:36, instance:mvnproject.Testinglf@68be2bc2]" name="reviewDelhi" duration-ms="395" started-at="2018-10-07T15:06:27Z" finished-at="2018-10-07T15:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewDelhi -->
+        <test-method status="PASS" signature="reviewBangalore()[pri:37, instance:mvnproject.Testinglf@68be2bc2]" name="reviewBangalore" duration-ms="405" started-at="2018-10-07T15:06:27Z" finished-at="2018-10-07T15:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewBangalore -->
+        <test-method status="PASS" signature="reviewPune()[pri:38, instance:mvnproject.Testinglf@68be2bc2]" name="reviewPune" duration-ms="346" started-at="2018-10-07T15:06:28Z" finished-at="2018-10-07T15:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewPune -->
+        <test-method status="PASS" signature="reviewOther()[pri:39, instance:mvnproject.Testinglf@68be2bc2]" name="reviewOther" duration-ms="346" started-at="2018-10-07T15:06:28Z" finished-at="2018-10-07T15:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOther -->
+        <test-method status="PASS" signature="howTo()[pri:40, instance:mvnproject.Testinglf@68be2bc2]" name="howTo" duration-ms="1483" started-at="2018-10-07T15:06:28Z" finished-at="2018-10-07T15:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howTo -->
+        <test-method status="PASS" signature="howToKitchenHacks()[pri:41, instance:mvnproject.Testinglf@68be2bc2]" name="howToKitchenHacks" duration-ms="306" started-at="2018-10-07T15:06:30Z" finished-at="2018-10-07T15:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howToKitchenHacks -->
+        <test-method status="PASS" signature="howToTipsandTricks()[pri:42, instance:mvnproject.Testinglf@68be2bc2]" name="howToTipsandTricks" duration-ms="51" started-at="2018-10-07T15:06:30Z" finished-at="2018-10-07T15:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howToTipsandTricks -->
+        <test-method status="PASS" signature="showDetails()[pri:49, instance:mvnproject.Testinglf@68be2bc2]" name="showDetails" duration-ms="4037" started-at="2018-10-07T15:06:30Z" finished-at="2018-10-07T15:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showDetails -->
+        <test-method status="PASS" signature="showdetailTitle()[pri:50, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailTitle" duration-ms="80" started-at="2018-10-07T15:06:34Z" finished-at="2018-10-07T15:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailTitle -->
+        <test-method status="PASS" signature="showdetailDescription()[pri:51, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailDescription" duration-ms="44" started-at="2018-10-07T15:06:34Z" finished-at="2018-10-07T15:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailDescription -->
+        <test-method status="PASS" signature="showdetailComments()[pri:52, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailComments" duration-ms="4" started-at="2018-10-07T15:06:34Z" finished-at="2018-10-07T15:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailComments -->
+        <test-method status="PASS" signature="showdetailAboutHost()[pri:53, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailAboutHost" duration-ms="48" started-at="2018-10-07T15:06:34Z" finished-at="2018-10-07T15:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailAboutHost -->
+        <test-method status="PASS" signature="showdetailArticleAboutShow()[pri:54, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailArticleAboutShow" duration-ms="36" started-at="2018-10-07T15:06:34Z" finished-at="2018-10-07T15:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailArticleAboutShow -->
+        <test-method status="FAIL" signature="showdetailOurHosts()[pri:55, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailOurHosts" duration-ms="10018" started-at="2018-10-07T15:06:34Z" finished-at="2018-10-07T15:06:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Articles about Shows')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//span[contains(text(),'Articles about Shows')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Articles about Shows')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//span[contains(text(),'Articles about Shows')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.showdetailOurHosts(Testinglf.java:464)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailOurHosts -->
+        <test-method status="PASS" signature="showdetail_All_Shows()[pri:56, instance:mvnproject.Testinglf@68be2bc2]" name="showdetail_All_Shows" duration-ms="44" started-at="2018-10-07T15:06:44Z" finished-at="2018-10-07T15:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetail_All_Shows -->
+        <test-method status="PASS" signature="storyDetail()[pri:58, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetail" duration-ms="2885" started-at="2018-10-07T15:06:44Z" finished-at="2018-10-07T15:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetail -->
+        <test-method status="PASS" signature="storyDetailTitle()[pri:59, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailTitle" duration-ms="1054" started-at="2018-10-07T15:06:47Z" finished-at="2018-10-07T15:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetailTitle -->
+        <test-method status="PASS" signature="storyDetailRelatedStories()[pri:60, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailRelatedStories" duration-ms="1065" started-at="2018-10-07T15:06:48Z" finished-at="2018-10-07T15:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetailRelatedStories -->
+        <test-method status="PASS" signature="storyDetailsComments()[pri:65, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailsComments" duration-ms="15" started-at="2018-10-07T15:06:50Z" finished-at="2018-10-07T15:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetailsComments -->
+        <test-method status="PASS" signature="search()[pri:69, instance:mvnproject.Testinglf@68be2bc2]" name="search" duration-ms="3804" started-at="2018-10-07T15:06:50Z" finished-at="2018-10-07T15:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="BackfromStoryDetail()[pri:70, instance:mvnproject.Testinglf@68be2bc2]" name="BackfromStoryDetail" duration-ms="8471" started-at="2018-10-07T15:06:53Z" finished-at="2018-10-07T15:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackfromStoryDetail -->
+        <test-method status="PASS" signature="homeCarousel()[pri:71, instance:mvnproject.Testinglf@68be2bc2]" name="homeCarousel" duration-ms="3854" started-at="2018-10-07T15:07:02Z" finished-at="2018-10-07T15:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeCarousel -->
+        <test-method status="PASS" signature="recipeCarousel()[pri:72, instance:mvnproject.Testinglf@68be2bc2]" name="recipeCarousel" duration-ms="5812" started-at="2018-10-07T15:07:06Z" finished-at="2018-10-07T15:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeCarousel -->
+        <test-method status="PASS" signature="showCarousel()[pri:73, instance:mvnproject.Testinglf@68be2bc2]" name="showCarousel" duration-ms="3670" started-at="2018-10-07T15:07:11Z" finished-at="2018-10-07T15:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showCarousel -->
+        <test-method status="PASS" signature="peopleCarousel()[pri:74, instance:mvnproject.Testinglf@68be2bc2]" name="peopleCarousel" duration-ms="3188" started-at="2018-10-07T15:07:15Z" finished-at="2018-10-07T15:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleCarousel -->
+        <test-method status="PASS" signature="storyCarousel()[pri:75, instance:mvnproject.Testinglf@68be2bc2]" name="storyCarousel" duration-ms="3883" started-at="2018-10-07T15:07:18Z" finished-at="2018-10-07T15:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyCarousel -->
+        <test-method status="PASS" signature="reviewCarousel()[pri:76, instance:mvnproject.Testinglf@68be2bc2]" name="reviewCarousel" duration-ms="3320" started-at="2018-10-07T15:07:22Z" finished-at="2018-10-07T15:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewCarousel -->
+        <test-method status="PASS" signature="howToCarousel()[pri:77, instance:mvnproject.Testinglf@68be2bc2]" name="howToCarousel" duration-ms="3199" started-at="2018-10-07T15:07:26Z" finished-at="2018-10-07T15:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howToCarousel -->
+        <test-method status="FAIL" signature="recipeOnCardTagRedirection()[pri:78, instance:mvnproject.Testinglf@68be2bc2]" name="recipeOnCardTagRedirection" duration-ms="11573" started-at="2018-10-07T15:07:29Z" finished-at="2018-10-07T15:07:40Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[2]/div/div[2]/div[1]/div[1]/a/h3"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[2]/div/div[2]/div[1]/div[1]/a/h3}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[2]/div/div[2]/div[1]/div[1]/a/h3"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[2]/div/div[2]/div[1]/div[1]/a/h3}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.recipeOnCardTagRedirection(Testinglf.java:632)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeOnCardTagRedirection -->
+        <test-method status="FAIL" signature="recipeOnCardTitleRedirection()[pri:79, instance:mvnproject.Testinglf@68be2bc2]" name="recipeOnCardTitleRedirection" duration-ms="14655" started-at="2018-10-07T15:07:40Z" finished-at="2018-10-07T15:07:55Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/h4/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/h4/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/h4/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/h4/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.recipeOnCardTitleRedirection(Testinglf.java:642)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeOnCardTitleRedirection -->
+        <test-method status="FAIL" signature="recipeOnCardDecRedirection()[pri:80, instance:mvnproject.Testinglf@68be2bc2]" name="recipeOnCardDecRedirection" duration-ms="13063" started-at="2018-10-07T15:07:55Z" finished-at="2018-10-07T15:08:08Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/p/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/p/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/p/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/p/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.recipeOnCardDecRedirection(Testinglf.java:652)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeOnCardDecRedirection -->
+        <test-method status="FAIL" signature="recipeOnCardChefRedirection()[pri:81, instance:mvnproject.Testinglf@68be2bc2]" name="recipeOnCardChefRedirection" duration-ms="12597" started-at="2018-10-07T15:08:08Z" finished-at="2018-10-07T15:08:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/div[4]/div[2]/h5/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/div[4]/div[2]/h5/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/div[4]/div[2]/h5/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="RecipesMenu1"]/div[1]/div/div[2]/div[1]/div[4]/div[2]/h5/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.recipeOnCardChefRedirection(Testinglf.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeOnCardChefRedirection -->
+        <test-method status="PASS" signature="recipeSublinksRecipeOfTheDay()[pri:82, instance:mvnproject.Testinglf@68be2bc2]" name="recipeSublinksRecipeOfTheDay" duration-ms="10064" started-at="2018-10-07T15:08:21Z" finished-at="2018-10-07T15:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeSublinksRecipeOfTheDay -->
+        <test-method status="PASS" signature="recirecipeSublinksCusineType()[pri:83, instance:mvnproject.Testinglf@68be2bc2]" name="recirecipeSublinksCusineType" duration-ms="6743" started-at="2018-10-07T15:08:31Z" finished-at="2018-10-07T15:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recirecipeSublinksCusineType -->
+        <test-method status="FAIL" signature="recirecipeSublinksOurChef()[pri:84, instance:mvnproject.Testinglf@68be2bc2]" name="recirecipeSublinksOurChef" duration-ms="10047" started-at="2018-10-07T15:08:37Z" finished-at="2018-10-07T15:08:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-nav"]/ul/li[1]/ul/li[3]/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="main-nav"]/ul/li[1]/ul/li[3]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-nav"]/ul/li[1]/ul/li[3]/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="main-nav"]/ul/li[1]/ul/li[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.recirecipeSublinksOurChef(Testinglf.java:689)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recirecipeSublinksOurChef -->
+        <test-method status="PASS" signature="showSubLinkShowOnLF()[pri:85, instance:mvnproject.Testinglf@68be2bc2]" name="showSubLinkShowOnLF" duration-ms="5729" started-at="2018-10-07T15:08:47Z" finished-at="2018-10-07T15:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showSubLinkShowOnLF -->
+        <test-method status="PASS" signature="showSubLinkChefHost()[pri:86, instance:mvnproject.Testinglf@68be2bc2]" name="showSubLinkChefHost" duration-ms="2235" started-at="2018-10-07T15:08:53Z" finished-at="2018-10-07T15:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showSubLinkChefHost -->
+        <test-method status="FAIL" signature="showSubLinkTrendingonLF()[pri:87, instance:mvnproject.Testinglf@68be2bc2]" name="showSubLinkTrendingonLF" duration-ms="10073" started-at="2018-10-07T15:08:55Z" finished-at="2018-10-07T15:09:06Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-nav"]/ul/li[2]/ul/li[3]/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="main-nav"]/ul/li[2]/ul/li[3]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-nav"]/ul/li[2]/ul/li[3]/a"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=xpath, value=//*[@id="main-nav"]/ul/li[2]/ul/li[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.showSubLinkTrendingonLF(Testinglf.java:715)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showSubLinkTrendingonLF -->
+        <test-method status="PASS" signature="PeopleSubLinkChefandHost()[pri:88, instance:mvnproject.Testinglf@68be2bc2]" name="PeopleSubLinkChefandHost" duration-ms="5877" started-at="2018-10-07T15:09:06Z" finished-at="2018-10-07T15:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PeopleSubLinkChefandHost -->
+        <test-method status="PASS" signature="PeopleSubLinkScoop()[pri:89, instance:mvnproject.Testinglf@68be2bc2]" name="PeopleSubLinkScoop" duration-ms="1950" started-at="2018-10-07T15:09:11Z" finished-at="2018-10-07T15:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PeopleSubLinkScoop -->
+        <test-method status="PASS" signature="StorySublinkDishUp()[pri:90, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkDishUp" duration-ms="5232" started-at="2018-10-07T15:09:13Z" finished-at="2018-10-07T15:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkDishUp -->
+        <test-method status="PASS" signature="StorySublinkPopCulture()[pri:91, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkPopCulture" duration-ms="2069" started-at="2018-10-07T15:09:19Z" finished-at="2018-10-07T15:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkPopCulture -->
+        <test-method status="PASS" signature="StorySublinkPlace()[pri:92, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkPlace" duration-ms="2450" started-at="2018-10-07T15:09:21Z" finished-at="2018-10-07T15:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkPlace -->
+        <test-method status="PASS" signature="StorySublinkEntertainment()[pri:93, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkEntertainment" duration-ms="2011" started-at="2018-10-07T15:09:23Z" finished-at="2018-10-07T15:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkEntertainment -->
+        <test-method status="PASS" signature="StorySublinkFood()[pri:94, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkFood" duration-ms="1205" started-at="2018-10-07T15:09:25Z" finished-at="2018-10-07T15:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkFood -->
+        <test-method status="PASS" signature="StorySublinkHealth()[pri:95, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkHealth" duration-ms="2559" started-at="2018-10-07T15:09:26Z" finished-at="2018-10-07T15:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkHealth -->
+        <test-method status="PASS" signature="reviewSubLinkMumbai()[pri:96, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkMumbai" duration-ms="4164" started-at="2018-10-07T15:09:29Z" finished-at="2018-10-07T15:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkMumbai -->
+        <test-method status="PASS" signature="reviewSubLinkDelhi()[pri:97, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkDelhi" duration-ms="1993" started-at="2018-10-07T15:09:33Z" finished-at="2018-10-07T15:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkDelhi -->
+        <test-method status="PASS" signature="reviewSubLinkBangalore()[pri:98, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkBangalore" duration-ms="1893" started-at="2018-10-07T15:09:35Z" finished-at="2018-10-07T15:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkBangalore -->
+        <test-method status="PASS" signature="reviewSubLinkPune()[pri:99, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkPune" duration-ms="2095" started-at="2018-10-07T15:09:37Z" finished-at="2018-10-07T15:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkPune -->
+        <test-method status="PASS" signature="reviewSubLinkOther()[pri:100, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkOther" duration-ms="2140" started-at="2018-10-07T15:09:39Z" finished-at="2018-10-07T15:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkOther -->
+        <test-method status="PASS" signature="HowToSubLinkKitchenHacks()[pri:101, instance:mvnproject.Testinglf@68be2bc2]" name="HowToSubLinkKitchenHacks" duration-ms="3419" started-at="2018-10-07T15:09:41Z" finished-at="2018-10-07T15:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HowToSubLinkKitchenHacks -->
+        <test-method status="PASS" signature="HowToSubLinkTipsTricks()[pri:102, instance:mvnproject.Testinglf@68be2bc2]" name="HowToSubLinkTipsTricks" duration-ms="3027" started-at="2018-10-07T15:09:45Z" finished-at="2018-10-07T15:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HowToSubLinkTipsTricks -->
+        <test-method status="PASS" signature="aboutLF()[pri:103, instance:mvnproject.Testinglf@68be2bc2]" name="aboutLF" duration-ms="3984" started-at="2018-10-07T15:09:48Z" finished-at="2018-10-07T15:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutLF -->
+        <test-method status="PASS" signature="termsOfUse()[pri:104, instance:mvnproject.Testinglf@68be2bc2]" name="termsOfUse" duration-ms="1424" started-at="2018-10-07T15:09:52Z" finished-at="2018-10-07T15:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsOfUse -->
+        <test-method status="PASS" signature="stayConnectedTwitter()[pri:105, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedTwitter" duration-ms="2203" started-at="2018-10-07T15:09:53Z" finished-at="2018-10-07T15:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stayConnectedTwitter -->
+        <test-method status="PASS" signature="stayConnectedInsta()[pri:106, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedInsta" duration-ms="4335" started-at="2018-10-07T15:09:55Z" finished-at="2018-10-07T15:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stayConnectedInsta -->
+        <test-method status="PASS" signature="stayConnectedFacebook()[pri:107, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedFacebook" duration-ms="6210" started-at="2018-10-07T15:10:00Z" finished-at="2018-10-07T15:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stayConnectedFacebook -->
+        <test-method status="PASS" signature="googleAnaliticsCode()[pri:109, instance:mvnproject.Testinglf@68be2bc2]" name="googleAnaliticsCode" duration-ms="33" started-at="2018-10-07T15:10:06Z" finished-at="2018-10-07T15:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAnaliticsCode -->
+        <test-method status="PASS" signature="faceBookCode()[pri:110, instance:mvnproject.Testinglf@68be2bc2]" name="faceBookCode" duration-ms="35" started-at="2018-10-07T15:10:06Z" finished-at="2018-10-07T15:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookCode -->
+        <test-method status="PASS" signature="crazyEgg()[pri:111, instance:mvnproject.Testinglf@68be2bc2]" name="crazyEgg" duration-ms="27" started-at="2018-10-07T15:10:06Z" finished-at="2018-10-07T15:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crazyEgg -->
+        <test-method status="FAIL" signature="UCG()[pri:112, instance:mvnproject.Testinglf@68be2bc2]" name="UCG" duration-ms="36064" started-at="2018-10-07T15:10:06Z" finished-at="2018-10-07T15:10:42Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div.col-md-1:nth-child(3) > img:nth-child(1)"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=css selector, value=div.col-md-1:nth-child(3) > img:nth-child(1)}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.col-md-1:nth-child(3) > img:nth-child(1)"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAP_RAVINDRAK', ip: '192.168.171.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\RAVIND~1.ZEE\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bc43213fa332f45c89fa47c4fae5934e
+*** Element info: {Using=css selector, value=div.col-md-1:nth-child(3) > img:nth-child(1)}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at mvnproject.Testinglf.UCG(Testinglf.java:995)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UCG -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mvnproject.Testinglf@68be2bc2]" name="teardown" is-config="true" duration-ms="69" started-at="2018-10-07T15:10:42Z" finished-at="2018-10-07T15:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mvnproject.Testinglf -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
