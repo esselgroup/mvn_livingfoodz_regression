@@ -14,7 +14,6 @@
           <include name="homeTrendingOnLf"/>
           <include name="teardown"/>
           <include name="recipeOnCardTitleRedirection"/>
-          <include name="recirecipeSublinksOurChef"/>
           <include name="showdetailOurHosts"/>
         </methods>
       </class> <!-- mvnproject.Testinglf -->

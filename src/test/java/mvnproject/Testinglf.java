@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class Testinglf {
-	//starting webdriver adding now
+	//starting webdriver 
 			WebDriver driver;
 			@BeforeClass
 			public void setup()
@@ -941,9 +941,9 @@ public class Testinglf {
 				
 				
 				@Test (priority=109)
-				public void googleAnaliticsCode() {
+				public void reTargetting() {
 					String ps = driver.getPageSource();
-					assertTrue(ps.contains("var google_conversion_id = 848179066;"));
+					assertTrue(ps.contains("var google_conversion_id = 808504411;"));
 				}
 				
 				@Test (priority=110)
