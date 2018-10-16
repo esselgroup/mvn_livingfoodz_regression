@@ -627,8 +627,9 @@ public class Testinglf {
 					Thread.sleep(500);
 				}
 				
-				@Test(priority=78)
+				@Test(enabled=false)//Its removed from frontend
 				public void recipeOnCardTagRedirection() throws InterruptedException {
+					driver.get("https://livingfoodz.com/recipes/");
 					driver.findElement(By.xpath("//*[@id=\"main-nav\"]/ul/li[1]/a[1]")).click();
 					driver.findElement(By.xpath("//*[@id=\"RecipeOfTheDay\"]/div/h2/span"));
 					WebElement ele=driver.findElement(By.xpath("//*[@id=\"RecipesMenu1\"]/div[2]/div/div[2]/div[1]/div[1]/a/h3"));
@@ -637,7 +638,7 @@ public class Testinglf {
 				    Thread.sleep(3000);
 				}
 				
-				@Test(priority=79)
+				@Test(enabled=false)
 				public void recipeOnCardTitleRedirection() throws InterruptedException {
 					driver.findElement(By.xpath("//*[@id=\"main-nav\"]/ul/li[1]/a[1]")).click();
 					driver.findElement(By.xpath("//*[@id=\"RecipeOfTheDay\"]/div/h2/span"));
@@ -647,7 +648,7 @@ public class Testinglf {
 				    Thread.sleep(3000);
 				}
 				
-				@Test(priority=80)
+				@Test(enabled=false)
 				public void recipeOnCardDecRedirection() throws InterruptedException {
 					driver.findElement(By.xpath("//*[@id=\"main-nav\"]/ul/li[1]/a[1]")).click();
 					driver.findElement(By.xpath("//*[@id=\"RecipeOfTheDay\"]/div/h2/span"));
@@ -657,7 +658,7 @@ public class Testinglf {
 				    Thread.sleep(3000);
 				}
 				
-				@Test(priority=81)
+				@Test(enabled=false)
 				public void recipeOnCardChefRedirection() throws InterruptedException {
 					driver.findElement(By.xpath("//*[@id=\"main-nav\"]/ul/li[1]/a[1]")).click();
 					driver.findElement(By.xpath("//*[@id=\"RecipeOfTheDay\"]/div/h2/span"));
@@ -712,7 +713,7 @@ public class Testinglf {
 				Thread.sleep(1000);
 			}
 			
-			@Test(priority=87)
+			@Test(enabled=false)
 			public void showSubLinkTrendingonLF() throws Exception {
 				WebElement ele=driver.findElement(By.xpath("//*[@id=\"main-nav\"]/ul/li[2]/ul/li[3]/a"));
 				JavascriptExecutor js=(JavascriptExecutor)driver;

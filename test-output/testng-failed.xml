@@ -6,8 +6,11 @@
       <class name="mvnproject.Testinglf">
         <methods>
           <include name="setup"/>
+          <include name="recipeOnCardDecRedirection"/>
+          <include name="recipeOnCardChefRedirection"/>
+          <include name="showSubLinkTrendingonLF"/>
           <include name="teardown"/>
-          <include name="accessWebsite"/>
+          <include name="recipeOnCardTitleRedirection"/>
         </methods>
       </class> <!-- mvnproject.Testinglf -->
     </classes>
