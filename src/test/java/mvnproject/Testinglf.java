@@ -40,7 +40,7 @@ public class Testinglf {
 			public void accessWebsite() {
 				driver.get("https://livingfoodz.com");
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-				Assert.assertEquals(driver.getTitle(),"Tempting Food Recipes, Inviting Food Stories with Reviews - Living Foodz");
+				Assert.assertEquals(driver.getTitle(),"TTempting Food Recipes, Inviting Food Stories with Reviews - Living Foodz");
 				}
 			@Test(priority=2)
 			public void facebookLogin() throws Exception{
