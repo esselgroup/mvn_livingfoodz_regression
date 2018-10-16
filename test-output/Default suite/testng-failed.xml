@@ -5,16 +5,9 @@
     <classes>
       <class name="mvnproject.Testinglf">
         <methods>
-          <include name="UCG"/>
           <include name="setup"/>
-          <include name="recipeOnCardDecRedirection"/>
-          <include name="recipeOnCardChefRedirection"/>
-          <include name="recipeOnCardTagRedirection"/>
-          <include name="showSubLinkTrendingonLF"/>
-          <include name="homeTrendingOnLf"/>
           <include name="teardown"/>
-          <include name="recipeOnCardTitleRedirection"/>
-          <include name="showdetailOurHosts"/>
+          <include name="accessWebsite"/>
         </methods>
       </class> <!-- mvnproject.Testinglf -->
     </classes>

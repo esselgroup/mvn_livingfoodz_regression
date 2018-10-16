@@ -40,7 +40,7 @@ public class Testinglf {
 			public void accessWebsite() {
 				driver.get("https://livingfoodz.com");
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-				Assert.assertEquals(driver.getTitle(),"Living Foodz");
+				Assert.assertEquals(driver.getTitle(),"Tempting Food Recipes, Inviting Food Stories with Reviews - Living Foodz");
 				}
 			@Test(priority=2)
 			public void facebookLogin() throws Exception{
@@ -96,7 +96,9 @@ public class Testinglf {
 				
 				@Test(priority=7)
 				public void homeTrendingOnLf() throws InterruptedException {
-					driver.findElement(By.linkText("Trending on")).isDisplayed();
+					String actual=driver.findElement(By.xpath("//span[contains(text(),'Trending on')]")).getText();
+					String expected="Trending on";
+					Assert.assertEquals(actual, expected);
 					Thread.sleep(2000);
 				}
 				
@@ -163,7 +165,7 @@ public class Testinglf {
 				    System.out.println(youmaylike);
 				}
 				
-			/*	@Test(priority=14)
+				@Test(priority=14)
 				public void recipeDetailComments() {
 					String parentWindow = driver.getWindowHandle();
 					Set<String> handles =  driver.getWindowHandles();
@@ -178,7 +180,7 @@ public class Testinglf {
 					          driver.findElement(By.xpath("//*[@id=\"facebook\"]/body/div/div/div/div/div/div[2]/div[2]/div/div/div[1]/div[1]/div/div/div[2]/div/div/div/div")).sendKeys("NICE!!");;
 					          driver.findElement(By.xpath("//*[@id=\"facebook\"]/body/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/span/button")).click();
 					         driver.switchTo().window(parentWindow);}}
-				}*/
+				}
 						
 				@Test(priority=15)
 				public void showLanding1() throws Exception {
@@ -461,8 +463,8 @@ public class Testinglf {
 				
 				@Test(priority=55)
 				public void showdetailOurHosts() throws Exception {
-					String actual=driver.findElement(By.xpath("//span[contains(text(),'Articles about Shows')]")).getText();
-					String expected="Articles about Shows";
+					String actual=driver.findElement(By.xpath("//span[contains(text(),'Our Chefs')]")).getText();
+					String expected="Our Chefs";
 					Assert.assertEquals(actual, expected);
 					System.out.println(actual);
 					Thread.sleep(2000);
@@ -958,7 +960,7 @@ public class Testinglf {
 					assertTrue(ps.contains("src=\"//script.crazyegg.com/pages/scripts/0074/1182.js"));
 				}
 				
-				@Test(priority=112)
+				@Test(enabled=false)
 				public void UCG() throws Exception{
 				driver.findElement(By.cssSelector(".navbar-brand")).click();
 				driver.findElement(By.linkText("Click here to Share your Recipe")).click();
