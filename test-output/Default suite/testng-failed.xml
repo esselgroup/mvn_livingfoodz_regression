@@ -5,12 +5,23 @@
     <classes>
       <class name="mvnproject.Testinglf">
         <methods>
+          <include name="recipeSublinksRecipeOfTheDay"/>
+          <include name="reviewCarousel"/>
+          <include name="storyCarousel"/>
+          <include name="homeCarousel"/>
+          <include name="peopleCarousel"/>
+          <include name="crazyEgg"/>
+          <include name="reTargetting"/>
+          <include name="showCarousel"/>
+          <include name="stayConnectedFacebook"/>
           <include name="setup"/>
-          <include name="recipeOnCardDecRedirection"/>
-          <include name="recipeOnCardChefRedirection"/>
-          <include name="showSubLinkTrendingonLF"/>
           <include name="teardown"/>
-          <include name="recipeOnCardTitleRedirection"/>
+          <include name="search"/>
+          <include name="recipeCarousel"/>
+          <include name="faceBookCode"/>
+          <include name="howToCarousel"/>
+          <include name="stayConnectedInsta"/>
+          <include name="BackfromStoryDetail"/>
         </methods>
       </class> <!-- mvnproject.Testinglf -->
     </classes>

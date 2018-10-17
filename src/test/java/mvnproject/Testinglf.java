@@ -155,10 +155,10 @@ public class Testinglf {
 				    Assert.assertEquals(Actual1, expected1);
 				    System.out.println("Chef Recipe Section is Available");
 				    //Similar Recipes
-				    String similarRecipe=driver.findElement(By.xpath("//span[contains(text(),'Similar Recipes')]")).getText();
+				    /*String similarRecipe=driver.findElement(By.xpath("//span[contains(text(),'Similar Recipes')]")).getText();
 				    String expactersr="Similar Recipes";
 				    Assert.assertEquals(similarRecipe, expactersr);
-				    System.out.println("Similar Recipe available");
+				    System.out.println("Similar Recipe available");*/
 				    String youmaylike=driver.findElement(By.xpath("//*[@class='ob-widget-header']")).getText();
 				    String expectedobtxt="You Might Also Like";
 				    Assert.assertEquals(youmaylike, expectedobtxt);

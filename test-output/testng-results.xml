@@ -2,376 +2,376 @@
 <testng-results skipped="0" failed="0" ignored="15" total="105" passed="90">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="324980" started-at="2018-10-16T06:21:11Z" finished-at="2018-10-16T06:26:36Z">
+  <suite name="Default suite" duration-ms="244356" started-at="2018-10-17T12:08:59Z" finished-at="2018-10-17T12:13:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="324980" started-at="2018-10-16T06:21:11Z" finished-at="2018-10-16T06:26:36Z">
+    <test name="Default test" duration-ms="244356" started-at="2018-10-17T12:08:59Z" finished-at="2018-10-17T12:13:03Z">
       <class name="mvnproject.Testinglf">
-        <test-method status="PASS" signature="setup()[pri:0, instance:mvnproject.Testinglf@68be2bc2]" name="setup" is-config="true" duration-ms="5236" started-at="2018-10-16T11:51:11Z" finished-at="2018-10-16T11:51:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mvnproject.Testinglf@68be2bc2]" name="setup" is-config="true" duration-ms="5229" started-at="2018-10-17T17:38:59Z" finished-at="2018-10-17T17:39:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="accessWebsite()[pri:1, instance:mvnproject.Testinglf@68be2bc2]" name="accessWebsite" duration-ms="7104" started-at="2018-10-16T11:51:16Z" finished-at="2018-10-16T11:51:23Z">
+        <test-method status="PASS" signature="accessWebsite()[pri:1, instance:mvnproject.Testinglf@68be2bc2]" name="accessWebsite" duration-ms="7351" started-at="2018-10-17T17:39:04Z" finished-at="2018-10-17T17:39:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessWebsite -->
-        <test-method status="PASS" signature="facebookLogin()[pri:2, instance:mvnproject.Testinglf@68be2bc2]" name="facebookLogin" duration-ms="15699" started-at="2018-10-16T11:51:23Z" finished-at="2018-10-16T11:51:39Z">
+        <test-method status="PASS" signature="facebookLogin()[pri:2, instance:mvnproject.Testinglf@68be2bc2]" name="facebookLogin" duration-ms="16457" started-at="2018-10-17T17:39:12Z" finished-at="2018-10-17T17:39:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLogin -->
-        <test-method status="PASS" signature="clickprofilelink()[pri:3, instance:mvnproject.Testinglf@68be2bc2]" name="clickprofilelink" duration-ms="2985" started-at="2018-10-16T11:51:39Z" finished-at="2018-10-16T11:51:42Z">
+        <test-method status="PASS" signature="clickprofilelink()[pri:3, instance:mvnproject.Testinglf@68be2bc2]" name="clickprofilelink" duration-ms="2298" started-at="2018-10-17T17:39:28Z" finished-at="2018-10-17T17:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickprofilelink -->
-        <test-method status="PASS" signature="homeFreshPics()[pri:4, instance:mvnproject.Testinglf@68be2bc2]" name="homeFreshPics" duration-ms="4789" started-at="2018-10-16T11:51:42Z" finished-at="2018-10-16T11:51:47Z">
+        <test-method status="PASS" signature="homeFreshPics()[pri:4, instance:mvnproject.Testinglf@68be2bc2]" name="homeFreshPics" duration-ms="3704" started-at="2018-10-17T17:39:30Z" finished-at="2018-10-17T17:39:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeFreshPics -->
-        <test-method status="PASS" signature="homeRecipeOftheDay()[pri:5, instance:mvnproject.Testinglf@68be2bc2]" name="homeRecipeOftheDay" duration-ms="1178" started-at="2018-10-16T11:51:47Z" finished-at="2018-10-16T11:51:48Z">
+        <test-method status="PASS" signature="homeRecipeOftheDay()[pri:5, instance:mvnproject.Testinglf@68be2bc2]" name="homeRecipeOftheDay" duration-ms="843" started-at="2018-10-17T17:39:34Z" finished-at="2018-10-17T17:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeRecipeOftheDay -->
-        <test-method status="PASS" signature="homeOurChefs()[pri:6, instance:mvnproject.Testinglf@68be2bc2]" name="homeOurChefs" duration-ms="188" started-at="2018-10-16T11:51:48Z" finished-at="2018-10-16T11:51:48Z">
+        <test-method status="PASS" signature="homeOurChefs()[pri:6, instance:mvnproject.Testinglf@68be2bc2]" name="homeOurChefs" duration-ms="124" started-at="2018-10-17T17:39:35Z" finished-at="2018-10-17T17:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeOurChefs -->
-        <test-method status="PASS" signature="homeTrendingOnLf()[pri:7, instance:mvnproject.Testinglf@68be2bc2]" name="homeTrendingOnLf" duration-ms="2117" started-at="2018-10-16T11:51:48Z" finished-at="2018-10-16T11:51:50Z">
+        <test-method status="PASS" signature="homeTrendingOnLf()[pri:7, instance:mvnproject.Testinglf@68be2bc2]" name="homeTrendingOnLf" duration-ms="2183" started-at="2018-10-17T17:39:35Z" finished-at="2018-10-17T17:39:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeTrendingOnLf -->
-        <test-method status="PASS" signature="homeAllShows()[pri:8, instance:mvnproject.Testinglf@68be2bc2]" name="homeAllShows" duration-ms="117" started-at="2018-10-16T11:51:50Z" finished-at="2018-10-16T11:51:50Z">
+        <test-method status="PASS" signature="homeAllShows()[pri:8, instance:mvnproject.Testinglf@68be2bc2]" name="homeAllShows" duration-ms="74" started-at="2018-10-17T17:39:37Z" finished-at="2018-10-17T17:39:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeAllShows -->
-        <test-method status="PASS" signature="recipeLanding1()[pri:9, instance:mvnproject.Testinglf@68be2bc2]" name="recipeLanding1" duration-ms="8006" started-at="2018-10-16T11:51:50Z" finished-at="2018-10-16T11:51:58Z">
+        <test-method status="PASS" signature="recipeLanding1()[pri:9, instance:mvnproject.Testinglf@68be2bc2]" name="recipeLanding1" duration-ms="2355" started-at="2018-10-17T17:39:37Z" finished-at="2018-10-17T17:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeLanding1 -->
-        <test-method status="PASS" signature="recipeRecipeOftheDay()[pri:10, instance:mvnproject.Testinglf@68be2bc2]" name="recipeRecipeOftheDay" duration-ms="94" started-at="2018-10-16T11:51:58Z" finished-at="2018-10-16T11:51:59Z">
+        <test-method status="PASS" signature="recipeRecipeOftheDay()[pri:10, instance:mvnproject.Testinglf@68be2bc2]" name="recipeRecipeOftheDay" duration-ms="148" started-at="2018-10-17T17:39:40Z" finished-at="2018-10-17T17:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeRecipeOftheDay -->
-        <test-method status="PASS" signature="recipeOurChef()[pri:11, instance:mvnproject.Testinglf@68be2bc2]" name="recipeOurChef" duration-ms="88" started-at="2018-10-16T11:51:59Z" finished-at="2018-10-16T11:51:59Z">
+        <test-method status="PASS" signature="recipeOurChef()[pri:11, instance:mvnproject.Testinglf@68be2bc2]" name="recipeOurChef" duration-ms="114" started-at="2018-10-17T17:39:40Z" finished-at="2018-10-17T17:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeOurChef -->
-        <test-method status="PASS" signature="recipeCusineType()[pri:12, instance:mvnproject.Testinglf@68be2bc2]" name="recipeCusineType" duration-ms="506" started-at="2018-10-16T11:51:59Z" finished-at="2018-10-16T11:51:59Z">
+        <test-method status="PASS" signature="recipeCusineType()[pri:12, instance:mvnproject.Testinglf@68be2bc2]" name="recipeCusineType" duration-ms="504" started-at="2018-10-17T17:39:40Z" finished-at="2018-10-17T17:39:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeCusineType -->
-        <test-method status="PASS" signature="recipeDetail()[pri:13, instance:mvnproject.Testinglf@68be2bc2]" name="recipeDetail" duration-ms="53399" started-at="2018-10-16T11:51:59Z" finished-at="2018-10-16T11:52:53Z">
+        <test-method status="PASS" signature="recipeDetail()[pri:13, instance:mvnproject.Testinglf@68be2bc2]" name="recipeDetail" duration-ms="12925" started-at="2018-10-17T17:39:40Z" finished-at="2018-10-17T17:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeDetail -->
-        <test-method status="PASS" signature="recipeDetailComments()[pri:14, instance:mvnproject.Testinglf@68be2bc2]" name="recipeDetailComments" duration-ms="27" started-at="2018-10-16T11:52:53Z" finished-at="2018-10-16T11:52:53Z">
+        <test-method status="PASS" signature="recipeDetailComments()[pri:14, instance:mvnproject.Testinglf@68be2bc2]" name="recipeDetailComments" duration-ms="36" started-at="2018-10-17T17:39:53Z" finished-at="2018-10-17T17:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeDetailComments -->
-        <test-method status="PASS" signature="showLanding1()[pri:15, instance:mvnproject.Testinglf@68be2bc2]" name="showLanding1" duration-ms="5547" started-at="2018-10-16T11:52:53Z" finished-at="2018-10-16T11:52:58Z">
+        <test-method status="PASS" signature="showLanding1()[pri:15, instance:mvnproject.Testinglf@68be2bc2]" name="showLanding1" duration-ms="3539" started-at="2018-10-17T17:39:53Z" finished-at="2018-10-17T17:39:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showLanding1 -->
-        <test-method status="PASS" signature="showOnLf()[pri:16, instance:mvnproject.Testinglf@68be2bc2]" name="showOnLf" duration-ms="84" started-at="2018-10-16T11:52:58Z" finished-at="2018-10-16T11:52:58Z">
+        <test-method status="PASS" signature="showOnLf()[pri:16, instance:mvnproject.Testinglf@68be2bc2]" name="showOnLf" duration-ms="118" started-at="2018-10-17T17:39:57Z" finished-at="2018-10-17T17:39:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showOnLf -->
-        <test-method status="PASS" signature="showOurHosts()[pri:17, instance:mvnproject.Testinglf@68be2bc2]" name="showOurHosts" duration-ms="107" started-at="2018-10-16T11:52:58Z" finished-at="2018-10-16T11:52:58Z">
+        <test-method status="PASS" signature="showOurHosts()[pri:17, instance:mvnproject.Testinglf@68be2bc2]" name="showOurHosts" duration-ms="69" started-at="2018-10-17T17:39:57Z" finished-at="2018-10-17T17:39:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showOurHosts -->
-        <test-method status="PASS" signature="showTrendingOnLF()[pri:18, instance:mvnproject.Testinglf@68be2bc2]" name="showTrendingOnLF" duration-ms="100" started-at="2018-10-16T11:52:58Z" finished-at="2018-10-16T11:52:58Z">
+        <test-method status="PASS" signature="showTrendingOnLF()[pri:18, instance:mvnproject.Testinglf@68be2bc2]" name="showTrendingOnLF" duration-ms="64" started-at="2018-10-17T17:39:57Z" finished-at="2018-10-17T17:39:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showTrendingOnLF -->
-        <test-method status="PASS" signature="peopleLanding()[pri:19, instance:mvnproject.Testinglf@68be2bc2]" name="peopleLanding" duration-ms="4502" started-at="2018-10-16T11:52:58Z" finished-at="2018-10-16T11:53:03Z">
+        <test-method status="PASS" signature="peopleLanding()[pri:19, instance:mvnproject.Testinglf@68be2bc2]" name="peopleLanding" duration-ms="2368" started-at="2018-10-17T17:39:57Z" finished-at="2018-10-17T17:40:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- peopleLanding -->
-        <test-method status="PASS" signature="peopleChefHost()[pri:20, instance:mvnproject.Testinglf@68be2bc2]" name="peopleChefHost" duration-ms="401" started-at="2018-10-16T11:53:03Z" finished-at="2018-10-16T11:53:03Z">
+        <test-method status="PASS" signature="peopleChefHost()[pri:20, instance:mvnproject.Testinglf@68be2bc2]" name="peopleChefHost" duration-ms="355" started-at="2018-10-17T17:40:00Z" finished-at="2018-10-17T17:40:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- peopleChefHost -->
-        <test-method status="PASS" signature="peopleScoops()[pri:21, instance:mvnproject.Testinglf@68be2bc2]" name="peopleScoops" duration-ms="1069" started-at="2018-10-16T11:53:03Z" finished-at="2018-10-16T11:53:04Z">
+        <test-method status="PASS" signature="peopleScoops()[pri:21, instance:mvnproject.Testinglf@68be2bc2]" name="peopleScoops" duration-ms="1106" started-at="2018-10-17T17:40:00Z" finished-at="2018-10-17T17:40:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- peopleScoops -->
-        <test-method status="PASS" signature="ChefProfile()[pri:22, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfile" duration-ms="5841" started-at="2018-10-16T11:53:04Z" finished-at="2018-10-16T11:53:10Z">
+        <test-method status="PASS" signature="ChefProfile()[pri:22, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfile" duration-ms="5969" started-at="2018-10-17T17:40:01Z" finished-at="2018-10-17T17:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChefProfile -->
-        <test-method status="PASS" signature="ChefProfileRecipeByChef()[pri:23, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfileRecipeByChef" duration-ms="396" started-at="2018-10-16T11:53:10Z" finished-at="2018-10-16T11:53:11Z">
+        <test-method status="PASS" signature="ChefProfileRecipeByChef()[pri:23, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfileRecipeByChef" duration-ms="172" started-at="2018-10-17T17:40:07Z" finished-at="2018-10-17T17:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChefProfileRecipeByChef -->
-        <test-method status="PASS" signature="ChefProfileFBComments()[pri:24, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfileFBComments" duration-ms="15" started-at="2018-10-16T11:53:11Z" finished-at="2018-10-16T11:53:11Z">
+        <test-method status="PASS" signature="ChefProfileFBComments()[pri:24, instance:mvnproject.Testinglf@68be2bc2]" name="ChefProfileFBComments" duration-ms="5" started-at="2018-10-17T17:40:07Z" finished-at="2018-10-17T17:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChefProfileFBComments -->
-        <test-method status="PASS" signature="chefProfileOurChefs()[pri:26, instance:mvnproject.Testinglf@68be2bc2]" name="chefProfileOurChefs" duration-ms="494" started-at="2018-10-16T11:53:11Z" finished-at="2018-10-16T11:53:11Z">
+        <test-method status="PASS" signature="chefProfileOurChefs()[pri:26, instance:mvnproject.Testinglf@68be2bc2]" name="chefProfileOurChefs" duration-ms="101" started-at="2018-10-17T17:40:07Z" finished-at="2018-10-17T17:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chefProfileOurChefs -->
-        <test-method status="PASS" signature="storyLanding()[pri:27, instance:mvnproject.Testinglf@68be2bc2]" name="storyLanding" duration-ms="3665" started-at="2018-10-16T11:53:11Z" finished-at="2018-10-16T11:53:15Z">
+        <test-method status="PASS" signature="storyLanding()[pri:27, instance:mvnproject.Testinglf@68be2bc2]" name="storyLanding" duration-ms="4954" started-at="2018-10-17T17:40:07Z" finished-at="2018-10-17T17:40:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyLanding -->
-        <test-method status="PASS" signature="storyDishup()[pri:28, instance:mvnproject.Testinglf@68be2bc2]" name="storyDishup" duration-ms="860" started-at="2018-10-16T11:53:15Z" finished-at="2018-10-16T11:53:16Z">
+        <test-method status="PASS" signature="storyDishup()[pri:28, instance:mvnproject.Testinglf@68be2bc2]" name="storyDishup" duration-ms="78" started-at="2018-10-17T17:40:12Z" finished-at="2018-10-17T17:40:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyDishup -->
-        <test-method status="PASS" signature="storyPopCulture()[pri:29, instance:mvnproject.Testinglf@68be2bc2]" name="storyPopCulture" duration-ms="1011" started-at="2018-10-16T11:53:16Z" finished-at="2018-10-16T11:53:17Z">
+        <test-method status="PASS" signature="storyPopCulture()[pri:29, instance:mvnproject.Testinglf@68be2bc2]" name="storyPopCulture" duration-ms="68" started-at="2018-10-17T17:40:12Z" finished-at="2018-10-17T17:40:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyPopCulture -->
-        <test-method status="PASS" signature="storyPlaces()[pri:30, instance:mvnproject.Testinglf@68be2bc2]" name="storyPlaces" duration-ms="2068" started-at="2018-10-16T11:53:17Z" finished-at="2018-10-16T11:53:19Z">
+        <test-method status="PASS" signature="storyPlaces()[pri:30, instance:mvnproject.Testinglf@68be2bc2]" name="storyPlaces" duration-ms="1589" started-at="2018-10-17T17:40:12Z" finished-at="2018-10-17T17:40:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyPlaces -->
-        <test-method status="PASS" signature="storyEntertainment()[pri:31, instance:mvnproject.Testinglf@68be2bc2]" name="storyEntertainment" duration-ms="1887" started-at="2018-10-16T11:53:19Z" finished-at="2018-10-16T11:53:21Z">
+        <test-method status="PASS" signature="storyEntertainment()[pri:31, instance:mvnproject.Testinglf@68be2bc2]" name="storyEntertainment" duration-ms="1254" started-at="2018-10-17T17:40:14Z" finished-at="2018-10-17T17:40:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyEntertainment -->
-        <test-method status="PASS" signature="storyFoodplusplus()[pri:32, instance:mvnproject.Testinglf@68be2bc2]" name="storyFoodplusplus" duration-ms="1557" started-at="2018-10-16T11:53:21Z" finished-at="2018-10-16T11:53:22Z">
+        <test-method status="PASS" signature="storyFoodplusplus()[pri:32, instance:mvnproject.Testinglf@68be2bc2]" name="storyFoodplusplus" duration-ms="1200" started-at="2018-10-17T17:40:15Z" finished-at="2018-10-17T17:40:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyFoodplusplus -->
-        <test-method status="PASS" signature="storyHealth()[pri:33, instance:mvnproject.Testinglf@68be2bc2]" name="storyHealth" duration-ms="1510" started-at="2018-10-16T11:53:22Z" finished-at="2018-10-16T11:53:24Z">
+        <test-method status="PASS" signature="storyHealth()[pri:33, instance:mvnproject.Testinglf@68be2bc2]" name="storyHealth" duration-ms="1245" started-at="2018-10-17T17:40:16Z" finished-at="2018-10-17T17:40:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyHealth -->
-        <test-method status="PASS" signature="reviewLanding()[pri:34, instance:mvnproject.Testinglf@68be2bc2]" name="reviewLanding" duration-ms="3247" started-at="2018-10-16T11:53:24Z" finished-at="2018-10-16T11:53:27Z">
+        <test-method status="PASS" signature="reviewLanding()[pri:34, instance:mvnproject.Testinglf@68be2bc2]" name="reviewLanding" duration-ms="4051" started-at="2018-10-17T17:40:18Z" finished-at="2018-10-17T17:40:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewLanding -->
-        <test-method status="PASS" signature="reviewMumbai()[pri:35, instance:mvnproject.Testinglf@68be2bc2]" name="reviewMumbai" duration-ms="2278" started-at="2018-10-16T11:53:27Z" finished-at="2018-10-16T11:53:29Z">
+        <test-method status="PASS" signature="reviewMumbai()[pri:35, instance:mvnproject.Testinglf@68be2bc2]" name="reviewMumbai" duration-ms="1132" started-at="2018-10-17T17:40:22Z" finished-at="2018-10-17T17:40:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewMumbai -->
-        <test-method status="PASS" signature="reviewDelhi()[pri:36, instance:mvnproject.Testinglf@68be2bc2]" name="reviewDelhi" duration-ms="1896" started-at="2018-10-16T11:53:29Z" finished-at="2018-10-16T11:53:31Z">
+        <test-method status="PASS" signature="reviewDelhi()[pri:36, instance:mvnproject.Testinglf@68be2bc2]" name="reviewDelhi" duration-ms="1018" started-at="2018-10-17T17:40:23Z" finished-at="2018-10-17T17:40:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewDelhi -->
-        <test-method status="PASS" signature="reviewBangalore()[pri:37, instance:mvnproject.Testinglf@68be2bc2]" name="reviewBangalore" duration-ms="1315" started-at="2018-10-16T11:53:31Z" finished-at="2018-10-16T11:53:32Z">
+        <test-method status="PASS" signature="reviewBangalore()[pri:37, instance:mvnproject.Testinglf@68be2bc2]" name="reviewBangalore" duration-ms="1028" started-at="2018-10-17T17:40:24Z" finished-at="2018-10-17T17:40:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewBangalore -->
-        <test-method status="PASS" signature="reviewPune()[pri:38, instance:mvnproject.Testinglf@68be2bc2]" name="reviewPune" duration-ms="1203" started-at="2018-10-16T11:53:32Z" finished-at="2018-10-16T11:53:34Z">
+        <test-method status="PASS" signature="reviewPune()[pri:38, instance:mvnproject.Testinglf@68be2bc2]" name="reviewPune" duration-ms="1026" started-at="2018-10-17T17:40:25Z" finished-at="2018-10-17T17:40:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewPune -->
-        <test-method status="PASS" signature="reviewOther()[pri:39, instance:mvnproject.Testinglf@68be2bc2]" name="reviewOther" duration-ms="1324" started-at="2018-10-16T11:53:34Z" finished-at="2018-10-16T11:53:35Z">
+        <test-method status="PASS" signature="reviewOther()[pri:39, instance:mvnproject.Testinglf@68be2bc2]" name="reviewOther" duration-ms="848" started-at="2018-10-17T17:40:26Z" finished-at="2018-10-17T17:40:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewOther -->
-        <test-method status="PASS" signature="howTo()[pri:40, instance:mvnproject.Testinglf@68be2bc2]" name="howTo" duration-ms="2233" started-at="2018-10-16T11:53:35Z" finished-at="2018-10-16T11:53:37Z">
+        <test-method status="PASS" signature="howTo()[pri:40, instance:mvnproject.Testinglf@68be2bc2]" name="howTo" duration-ms="2108" started-at="2018-10-17T17:40:27Z" finished-at="2018-10-17T17:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- howTo -->
-        <test-method status="PASS" signature="howToKitchenHacks()[pri:41, instance:mvnproject.Testinglf@68be2bc2]" name="howToKitchenHacks" duration-ms="1335" started-at="2018-10-16T11:53:37Z" finished-at="2018-10-16T11:53:39Z">
+        <test-method status="PASS" signature="howToKitchenHacks()[pri:41, instance:mvnproject.Testinglf@68be2bc2]" name="howToKitchenHacks" duration-ms="644" started-at="2018-10-17T17:40:29Z" finished-at="2018-10-17T17:40:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- howToKitchenHacks -->
-        <test-method status="PASS" signature="howToTipsandTricks()[pri:42, instance:mvnproject.Testinglf@68be2bc2]" name="howToTipsandTricks" duration-ms="378" started-at="2018-10-16T11:53:39Z" finished-at="2018-10-16T11:53:39Z">
+        <test-method status="PASS" signature="howToTipsandTricks()[pri:42, instance:mvnproject.Testinglf@68be2bc2]" name="howToTipsandTricks" duration-ms="138" started-at="2018-10-17T17:40:30Z" finished-at="2018-10-17T17:40:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- howToTipsandTricks -->
-        <test-method status="PASS" signature="showDetails()[pri:49, instance:mvnproject.Testinglf@68be2bc2]" name="showDetails" duration-ms="4918" started-at="2018-10-16T11:53:39Z" finished-at="2018-10-16T11:53:44Z">
+        <test-method status="PASS" signature="showDetails()[pri:49, instance:mvnproject.Testinglf@68be2bc2]" name="showDetails" duration-ms="4491" started-at="2018-10-17T17:40:30Z" finished-at="2018-10-17T17:40:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showDetails -->
-        <test-method status="PASS" signature="showdetailTitle()[pri:50, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailTitle" duration-ms="868" started-at="2018-10-16T11:53:44Z" finished-at="2018-10-16T11:53:45Z">
+        <test-method status="PASS" signature="showdetailTitle()[pri:50, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailTitle" duration-ms="383" started-at="2018-10-17T17:40:34Z" finished-at="2018-10-17T17:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showdetailTitle -->
-        <test-method status="PASS" signature="showdetailDescription()[pri:51, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailDescription" duration-ms="361" started-at="2018-10-16T11:53:45Z" finished-at="2018-10-16T11:53:45Z">
+        <test-method status="PASS" signature="showdetailDescription()[pri:51, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailDescription" duration-ms="120" started-at="2018-10-17T17:40:35Z" finished-at="2018-10-17T17:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showdetailDescription -->
-        <test-method status="PASS" signature="showdetailComments()[pri:52, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailComments" duration-ms="10" started-at="2018-10-16T11:53:45Z" finished-at="2018-10-16T11:53:45Z">
+        <test-method status="PASS" signature="showdetailComments()[pri:52, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailComments" duration-ms="8" started-at="2018-10-17T17:40:35Z" finished-at="2018-10-17T17:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showdetailComments -->
-        <test-method status="PASS" signature="showdetailAboutHost()[pri:53, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailAboutHost" duration-ms="129" started-at="2018-10-16T11:53:45Z" finished-at="2018-10-16T11:53:45Z">
+        <test-method status="PASS" signature="showdetailAboutHost()[pri:53, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailAboutHost" duration-ms="92" started-at="2018-10-17T17:40:35Z" finished-at="2018-10-17T17:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showdetailAboutHost -->
-        <test-method status="PASS" signature="showdetailArticleAboutShow()[pri:54, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailArticleAboutShow" duration-ms="185" started-at="2018-10-16T11:53:45Z" finished-at="2018-10-16T11:53:45Z">
+        <test-method status="PASS" signature="showdetailArticleAboutShow()[pri:54, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailArticleAboutShow" duration-ms="99" started-at="2018-10-17T17:40:35Z" finished-at="2018-10-17T17:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showdetailArticleAboutShow -->
-        <test-method status="PASS" signature="showdetailOurHosts()[pri:55, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailOurHosts" duration-ms="2089" started-at="2018-10-16T11:53:45Z" finished-at="2018-10-16T11:53:47Z">
+        <test-method status="PASS" signature="showdetailOurHosts()[pri:55, instance:mvnproject.Testinglf@68be2bc2]" name="showdetailOurHosts" duration-ms="2039" started-at="2018-10-17T17:40:35Z" finished-at="2018-10-17T17:40:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showdetailOurHosts -->
-        <test-method status="PASS" signature="showdetail_All_Shows()[pri:56, instance:mvnproject.Testinglf@68be2bc2]" name="showdetail_All_Shows" duration-ms="106" started-at="2018-10-16T11:53:47Z" finished-at="2018-10-16T11:53:48Z">
+        <test-method status="PASS" signature="showdetail_All_Shows()[pri:56, instance:mvnproject.Testinglf@68be2bc2]" name="showdetail_All_Shows" duration-ms="58" started-at="2018-10-17T17:40:37Z" finished-at="2018-10-17T17:40:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showdetail_All_Shows -->
-        <test-method status="PASS" signature="storyDetail()[pri:58, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetail" duration-ms="3416" started-at="2018-10-16T11:53:48Z" finished-at="2018-10-16T11:53:51Z">
+        <test-method status="PASS" signature="storyDetail()[pri:58, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetail" duration-ms="2852" started-at="2018-10-17T17:40:37Z" finished-at="2018-10-17T17:40:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyDetail -->
-        <test-method status="PASS" signature="storyDetailTitle()[pri:59, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailTitle" duration-ms="2145" started-at="2018-10-16T11:53:51Z" finished-at="2018-10-16T11:53:53Z">
+        <test-method status="PASS" signature="storyDetailTitle()[pri:59, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailTitle" duration-ms="1951" started-at="2018-10-17T17:40:40Z" finished-at="2018-10-17T17:40:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyDetailTitle -->
-        <test-method status="PASS" signature="storyDetailRelatedStories()[pri:60, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailRelatedStories" duration-ms="1383" started-at="2018-10-16T11:53:53Z" finished-at="2018-10-16T11:53:55Z">
+        <test-method status="PASS" signature="storyDetailRelatedStories()[pri:60, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailRelatedStories" duration-ms="1077" started-at="2018-10-17T17:40:42Z" finished-at="2018-10-17T17:40:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyDetailRelatedStories -->
-        <test-method status="PASS" signature="storyDetailsComments()[pri:65, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailsComments" duration-ms="13" started-at="2018-10-16T11:53:55Z" finished-at="2018-10-16T11:53:55Z">
+        <test-method status="PASS" signature="storyDetailsComments()[pri:65, instance:mvnproject.Testinglf@68be2bc2]" name="storyDetailsComments" duration-ms="5" started-at="2018-10-17T17:40:43Z" finished-at="2018-10-17T17:40:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyDetailsComments -->
-        <test-method status="PASS" signature="search()[pri:69, instance:mvnproject.Testinglf@68be2bc2]" name="search" duration-ms="5534" started-at="2018-10-16T11:53:55Z" finished-at="2018-10-16T11:54:00Z">
+        <test-method status="PASS" signature="search()[pri:69, instance:mvnproject.Testinglf@68be2bc2]" name="search" duration-ms="6568" started-at="2018-10-17T17:40:43Z" finished-at="2018-10-17T17:40:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="BackfromStoryDetail()[pri:70, instance:mvnproject.Testinglf@68be2bc2]" name="BackfromStoryDetail" duration-ms="11078" started-at="2018-10-16T11:54:00Z" finished-at="2018-10-16T11:54:11Z">
+        <test-method status="PASS" signature="BackfromStoryDetail()[pri:70, instance:mvnproject.Testinglf@68be2bc2]" name="BackfromStoryDetail" duration-ms="8867" started-at="2018-10-17T17:40:49Z" finished-at="2018-10-17T17:40:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BackfromStoryDetail -->
-        <test-method status="PASS" signature="homeCarousel()[pri:71, instance:mvnproject.Testinglf@68be2bc2]" name="homeCarousel" duration-ms="7738" started-at="2018-10-16T11:54:11Z" finished-at="2018-10-16T11:54:19Z">
+        <test-method status="PASS" signature="homeCarousel()[pri:71, instance:mvnproject.Testinglf@68be2bc2]" name="homeCarousel" duration-ms="5588" started-at="2018-10-17T17:40:58Z" finished-at="2018-10-17T17:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeCarousel -->
-        <test-method status="PASS" signature="recipeCarousel()[pri:72, instance:mvnproject.Testinglf@68be2bc2]" name="recipeCarousel" duration-ms="8541" started-at="2018-10-16T11:54:19Z" finished-at="2018-10-16T11:54:27Z">
+        <test-method status="PASS" signature="recipeCarousel()[pri:72, instance:mvnproject.Testinglf@68be2bc2]" name="recipeCarousel" duration-ms="7176" started-at="2018-10-17T17:41:04Z" finished-at="2018-10-17T17:41:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeCarousel -->
-        <test-method status="PASS" signature="showCarousel()[pri:73, instance:mvnproject.Testinglf@68be2bc2]" name="showCarousel" duration-ms="5172" started-at="2018-10-16T11:54:27Z" finished-at="2018-10-16T11:54:33Z">
+        <test-method status="PASS" signature="showCarousel()[pri:73, instance:mvnproject.Testinglf@68be2bc2]" name="showCarousel" duration-ms="4226" started-at="2018-10-17T17:41:11Z" finished-at="2018-10-17T17:41:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showCarousel -->
-        <test-method status="PASS" signature="peopleCarousel()[pri:74, instance:mvnproject.Testinglf@68be2bc2]" name="peopleCarousel" duration-ms="4309" started-at="2018-10-16T11:54:33Z" finished-at="2018-10-16T11:54:37Z">
+        <test-method status="PASS" signature="peopleCarousel()[pri:74, instance:mvnproject.Testinglf@68be2bc2]" name="peopleCarousel" duration-ms="4015" started-at="2018-10-17T17:41:15Z" finished-at="2018-10-17T17:41:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- peopleCarousel -->
-        <test-method status="PASS" signature="storyCarousel()[pri:75, instance:mvnproject.Testinglf@68be2bc2]" name="storyCarousel" duration-ms="6159" started-at="2018-10-16T11:54:37Z" finished-at="2018-10-16T11:54:43Z">
+        <test-method status="PASS" signature="storyCarousel()[pri:75, instance:mvnproject.Testinglf@68be2bc2]" name="storyCarousel" duration-ms="5191" started-at="2018-10-17T17:41:19Z" finished-at="2018-10-17T17:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storyCarousel -->
-        <test-method status="PASS" signature="reviewCarousel()[pri:76, instance:mvnproject.Testinglf@68be2bc2]" name="reviewCarousel" duration-ms="5860" started-at="2018-10-16T11:54:43Z" finished-at="2018-10-16T11:54:49Z">
+        <test-method status="PASS" signature="reviewCarousel()[pri:76, instance:mvnproject.Testinglf@68be2bc2]" name="reviewCarousel" duration-ms="4439" started-at="2018-10-17T17:41:25Z" finished-at="2018-10-17T17:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewCarousel -->
-        <test-method status="PASS" signature="howToCarousel()[pri:77, instance:mvnproject.Testinglf@68be2bc2]" name="howToCarousel" duration-ms="3967" started-at="2018-10-16T11:54:49Z" finished-at="2018-10-16T11:54:53Z">
+        <test-method status="PASS" signature="howToCarousel()[pri:77, instance:mvnproject.Testinglf@68be2bc2]" name="howToCarousel" duration-ms="3633" started-at="2018-10-17T17:41:29Z" finished-at="2018-10-17T17:41:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- howToCarousel -->
-        <test-method status="PASS" signature="recipeSublinksRecipeOfTheDay()[pri:82, instance:mvnproject.Testinglf@68be2bc2]" name="recipeSublinksRecipeOfTheDay" duration-ms="6310" started-at="2018-10-16T11:54:53Z" finished-at="2018-10-16T11:54:59Z">
+        <test-method status="PASS" signature="recipeSublinksRecipeOfTheDay()[pri:82, instance:mvnproject.Testinglf@68be2bc2]" name="recipeSublinksRecipeOfTheDay" duration-ms="4981" started-at="2018-10-17T17:41:33Z" finished-at="2018-10-17T17:41:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recipeSublinksRecipeOfTheDay -->
-        <test-method status="PASS" signature="recirecipeSublinksCusineType()[pri:83, instance:mvnproject.Testinglf@68be2bc2]" name="recirecipeSublinksCusineType" duration-ms="2521" started-at="2018-10-16T11:54:59Z" finished-at="2018-10-16T11:55:02Z">
+        <test-method status="PASS" signature="recirecipeSublinksCusineType()[pri:83, instance:mvnproject.Testinglf@68be2bc2]" name="recirecipeSublinksCusineType" duration-ms="2301" started-at="2018-10-17T17:41:38Z" finished-at="2018-10-17T17:41:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recirecipeSublinksCusineType -->
-        <test-method status="PASS" signature="recirecipeSublinksOurChef()[pri:84, instance:mvnproject.Testinglf@68be2bc2]" name="recirecipeSublinksOurChef" duration-ms="2548" started-at="2018-10-16T11:55:02Z" finished-at="2018-10-16T11:55:04Z">
+        <test-method status="PASS" signature="recirecipeSublinksOurChef()[pri:84, instance:mvnproject.Testinglf@68be2bc2]" name="recirecipeSublinksOurChef" duration-ms="2028" started-at="2018-10-17T17:41:40Z" finished-at="2018-10-17T17:41:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recirecipeSublinksOurChef -->
-        <test-method status="PASS" signature="showSubLinkShowOnLF()[pri:85, instance:mvnproject.Testinglf@68be2bc2]" name="showSubLinkShowOnLF" duration-ms="6052" started-at="2018-10-16T11:55:04Z" finished-at="2018-10-16T11:55:10Z">
+        <test-method status="PASS" signature="showSubLinkShowOnLF()[pri:85, instance:mvnproject.Testinglf@68be2bc2]" name="showSubLinkShowOnLF" duration-ms="5480" started-at="2018-10-17T17:41:42Z" finished-at="2018-10-17T17:41:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showSubLinkShowOnLF -->
-        <test-method status="PASS" signature="showSubLinkChefHost()[pri:86, instance:mvnproject.Testinglf@68be2bc2]" name="showSubLinkChefHost" duration-ms="2998" started-at="2018-10-16T11:55:10Z" finished-at="2018-10-16T11:55:13Z">
+        <test-method status="PASS" signature="showSubLinkChefHost()[pri:86, instance:mvnproject.Testinglf@68be2bc2]" name="showSubLinkChefHost" duration-ms="1919" started-at="2018-10-17T17:41:47Z" finished-at="2018-10-17T17:41:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showSubLinkChefHost -->
-        <test-method status="PASS" signature="PeopleSubLinkChefandHost()[pri:88, instance:mvnproject.Testinglf@68be2bc2]" name="PeopleSubLinkChefandHost" duration-ms="6043" started-at="2018-10-16T11:55:13Z" finished-at="2018-10-16T11:55:19Z">
+        <test-method status="PASS" signature="PeopleSubLinkChefandHost()[pri:88, instance:mvnproject.Testinglf@68be2bc2]" name="PeopleSubLinkChefandHost" duration-ms="5425" started-at="2018-10-17T17:41:49Z" finished-at="2018-10-17T17:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PeopleSubLinkChefandHost -->
-        <test-method status="PASS" signature="PeopleSubLinkScoop()[pri:89, instance:mvnproject.Testinglf@68be2bc2]" name="PeopleSubLinkScoop" duration-ms="3628" started-at="2018-10-16T11:55:19Z" finished-at="2018-10-16T11:55:23Z">
+        <test-method status="PASS" signature="PeopleSubLinkScoop()[pri:89, instance:mvnproject.Testinglf@68be2bc2]" name="PeopleSubLinkScoop" duration-ms="2800" started-at="2018-10-17T17:41:55Z" finished-at="2018-10-17T17:41:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PeopleSubLinkScoop -->
-        <test-method status="PASS" signature="StorySublinkDishUp()[pri:90, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkDishUp" duration-ms="7009" started-at="2018-10-16T11:55:23Z" finished-at="2018-10-16T11:55:30Z">
+        <test-method status="PASS" signature="StorySublinkDishUp()[pri:90, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkDishUp" duration-ms="8099" started-at="2018-10-17T17:41:58Z" finished-at="2018-10-17T17:42:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StorySublinkDishUp -->
-        <test-method status="PASS" signature="StorySublinkPopCulture()[pri:91, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkPopCulture" duration-ms="2280" started-at="2018-10-16T11:55:30Z" finished-at="2018-10-16T11:55:32Z">
+        <test-method status="PASS" signature="StorySublinkPopCulture()[pri:91, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkPopCulture" duration-ms="2116" started-at="2018-10-17T17:42:06Z" finished-at="2018-10-17T17:42:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StorySublinkPopCulture -->
-        <test-method status="PASS" signature="StorySublinkPlace()[pri:92, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkPlace" duration-ms="2598" started-at="2018-10-16T11:55:32Z" finished-at="2018-10-16T11:55:35Z">
+        <test-method status="PASS" signature="StorySublinkPlace()[pri:92, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkPlace" duration-ms="3406" started-at="2018-10-17T17:42:08Z" finished-at="2018-10-17T17:42:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StorySublinkPlace -->
-        <test-method status="PASS" signature="StorySublinkEntertainment()[pri:93, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkEntertainment" duration-ms="2635" started-at="2018-10-16T11:55:35Z" finished-at="2018-10-16T11:55:38Z">
+        <test-method status="PASS" signature="StorySublinkEntertainment()[pri:93, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkEntertainment" duration-ms="2849" started-at="2018-10-17T17:42:11Z" finished-at="2018-10-17T17:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StorySublinkEntertainment -->
-        <test-method status="PASS" signature="StorySublinkFood()[pri:94, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkFood" duration-ms="1454" started-at="2018-10-16T11:55:38Z" finished-at="2018-10-16T11:55:39Z">
+        <test-method status="PASS" signature="StorySublinkFood()[pri:94, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkFood" duration-ms="951" started-at="2018-10-17T17:42:14Z" finished-at="2018-10-17T17:42:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StorySublinkFood -->
-        <test-method status="PASS" signature="StorySublinkHealth()[pri:95, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkHealth" duration-ms="2309" started-at="2018-10-16T11:55:39Z" finished-at="2018-10-16T11:55:41Z">
+        <test-method status="PASS" signature="StorySublinkHealth()[pri:95, instance:mvnproject.Testinglf@68be2bc2]" name="StorySublinkHealth" duration-ms="2067" started-at="2018-10-17T17:42:15Z" finished-at="2018-10-17T17:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StorySublinkHealth -->
-        <test-method status="PASS" signature="reviewSubLinkMumbai()[pri:96, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkMumbai" duration-ms="8511" started-at="2018-10-16T11:55:41Z" finished-at="2018-10-16T11:55:50Z">
+        <test-method status="PASS" signature="reviewSubLinkMumbai()[pri:96, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkMumbai" duration-ms="6315" started-at="2018-10-17T17:42:17Z" finished-at="2018-10-17T17:42:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewSubLinkMumbai -->
-        <test-method status="PASS" signature="reviewSubLinkDelhi()[pri:97, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkDelhi" duration-ms="2444" started-at="2018-10-16T11:55:50Z" finished-at="2018-10-16T11:55:52Z">
+        <test-method status="PASS" signature="reviewSubLinkDelhi()[pri:97, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkDelhi" duration-ms="1927" started-at="2018-10-17T17:42:23Z" finished-at="2018-10-17T17:42:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewSubLinkDelhi -->
-        <test-method status="PASS" signature="reviewSubLinkBangalore()[pri:98, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkBangalore" duration-ms="2587" started-at="2018-10-16T11:55:52Z" finished-at="2018-10-16T11:55:55Z">
+        <test-method status="PASS" signature="reviewSubLinkBangalore()[pri:98, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkBangalore" duration-ms="2156" started-at="2018-10-17T17:42:25Z" finished-at="2018-10-17T17:42:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewSubLinkBangalore -->
-        <test-method status="PASS" signature="reviewSubLinkPune()[pri:99, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkPune" duration-ms="2120" started-at="2018-10-16T11:55:55Z" finished-at="2018-10-16T11:55:57Z">
+        <test-method status="PASS" signature="reviewSubLinkPune()[pri:99, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkPune" duration-ms="2078" started-at="2018-10-17T17:42:27Z" finished-at="2018-10-17T17:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewSubLinkPune -->
-        <test-method status="PASS" signature="reviewSubLinkOther()[pri:100, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkOther" duration-ms="2448" started-at="2018-10-16T11:55:57Z" finished-at="2018-10-16T11:55:59Z">
+        <test-method status="PASS" signature="reviewSubLinkOther()[pri:100, instance:mvnproject.Testinglf@68be2bc2]" name="reviewSubLinkOther" duration-ms="2249" started-at="2018-10-17T17:42:30Z" finished-at="2018-10-17T17:42:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewSubLinkOther -->
-        <test-method status="PASS" signature="HowToSubLinkKitchenHacks()[pri:101, instance:mvnproject.Testinglf@68be2bc2]" name="HowToSubLinkKitchenHacks" duration-ms="5920" started-at="2018-10-16T11:55:59Z" finished-at="2018-10-16T11:56:05Z">
+        <test-method status="PASS" signature="HowToSubLinkKitchenHacks()[pri:101, instance:mvnproject.Testinglf@68be2bc2]" name="HowToSubLinkKitchenHacks" duration-ms="4611" started-at="2018-10-17T17:42:32Z" finished-at="2018-10-17T17:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HowToSubLinkKitchenHacks -->
-        <test-method status="PASS" signature="HowToSubLinkTipsTricks()[pri:102, instance:mvnproject.Testinglf@68be2bc2]" name="HowToSubLinkTipsTricks" duration-ms="3286" started-at="2018-10-16T11:56:05Z" finished-at="2018-10-16T11:56:09Z">
+        <test-method status="PASS" signature="HowToSubLinkTipsTricks()[pri:102, instance:mvnproject.Testinglf@68be2bc2]" name="HowToSubLinkTipsTricks" duration-ms="4136" started-at="2018-10-17T17:42:36Z" finished-at="2018-10-17T17:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HowToSubLinkTipsTricks -->
-        <test-method status="PASS" signature="aboutLF()[pri:103, instance:mvnproject.Testinglf@68be2bc2]" name="aboutLF" duration-ms="3201" started-at="2018-10-16T11:56:09Z" finished-at="2018-10-16T11:56:12Z">
+        <test-method status="PASS" signature="aboutLF()[pri:103, instance:mvnproject.Testinglf@68be2bc2]" name="aboutLF" duration-ms="3747" started-at="2018-10-17T17:42:41Z" finished-at="2018-10-17T17:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutLF -->
-        <test-method status="PASS" signature="termsOfUse()[pri:104, instance:mvnproject.Testinglf@68be2bc2]" name="termsOfUse" duration-ms="1651" started-at="2018-10-16T11:56:12Z" finished-at="2018-10-16T11:56:13Z">
+        <test-method status="PASS" signature="termsOfUse()[pri:104, instance:mvnproject.Testinglf@68be2bc2]" name="termsOfUse" duration-ms="1447" started-at="2018-10-17T17:42:44Z" finished-at="2018-10-17T17:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- termsOfUse -->
-        <test-method status="PASS" signature="stayConnectedTwitter()[pri:105, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedTwitter" duration-ms="2373" started-at="2018-10-16T11:56:13Z" finished-at="2018-10-16T11:56:16Z">
+        <test-method status="PASS" signature="stayConnectedTwitter()[pri:105, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedTwitter" duration-ms="2324" started-at="2018-10-17T17:42:46Z" finished-at="2018-10-17T17:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stayConnectedTwitter -->
-        <test-method status="PASS" signature="stayConnectedInsta()[pri:106, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedInsta" duration-ms="5247" started-at="2018-10-16T11:56:16Z" finished-at="2018-10-16T11:56:21Z">
+        <test-method status="PASS" signature="stayConnectedInsta()[pri:106, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedInsta" duration-ms="5177" started-at="2018-10-17T17:42:48Z" finished-at="2018-10-17T17:42:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stayConnectedInsta -->
-        <test-method status="PASS" signature="stayConnectedFacebook()[pri:107, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedFacebook" duration-ms="9138" started-at="2018-10-16T11:56:21Z" finished-at="2018-10-16T11:56:30Z">
+        <test-method status="PASS" signature="stayConnectedFacebook()[pri:107, instance:mvnproject.Testinglf@68be2bc2]" name="stayConnectedFacebook" duration-ms="6412" started-at="2018-10-17T17:42:53Z" finished-at="2018-10-17T17:43:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stayConnectedFacebook -->
-        <test-method status="PASS" signature="reTargetting()[pri:109, instance:mvnproject.Testinglf@68be2bc2]" name="reTargetting" duration-ms="2744" started-at="2018-10-16T11:56:30Z" finished-at="2018-10-16T11:56:33Z">
+        <test-method status="PASS" signature="reTargetting()[pri:109, instance:mvnproject.Testinglf@68be2bc2]" name="reTargetting" duration-ms="923" started-at="2018-10-17T17:43:00Z" finished-at="2018-10-17T17:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reTargetting -->
-        <test-method status="PASS" signature="faceBookCode()[pri:110, instance:mvnproject.Testinglf@68be2bc2]" name="faceBookCode" duration-ms="1830" started-at="2018-10-16T11:56:33Z" finished-at="2018-10-16T11:56:35Z">
+        <test-method status="PASS" signature="faceBookCode()[pri:110, instance:mvnproject.Testinglf@68be2bc2]" name="faceBookCode" duration-ms="897" started-at="2018-10-17T17:43:01Z" finished-at="2018-10-17T17:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- faceBookCode -->
-        <test-method status="PASS" signature="crazyEgg()[pri:111, instance:mvnproject.Testinglf@68be2bc2]" name="crazyEgg" duration-ms="1020" started-at="2018-10-16T11:56:35Z" finished-at="2018-10-16T11:56:36Z">
+        <test-method status="PASS" signature="crazyEgg()[pri:111, instance:mvnproject.Testinglf@68be2bc2]" name="crazyEgg" duration-ms="1241" started-at="2018-10-17T17:43:01Z" finished-at="2018-10-17T17:43:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crazyEgg -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:mvnproject.Testinglf@68be2bc2]" name="teardown" is-config="true" duration-ms="102" started-at="2018-10-16T11:56:36Z" finished-at="2018-10-16T11:56:36Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mvnproject.Testinglf@68be2bc2]" name="teardown" is-config="true" duration-ms="674" started-at="2018-10-17T17:43:03Z" finished-at="2018-10-17T17:43:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
