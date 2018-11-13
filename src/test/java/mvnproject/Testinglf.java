@@ -160,7 +160,7 @@ public class Testinglf {
 				    Assert.assertEquals(similarRecipe, expactersr);
 				    System.out.println("Similar Recipe available");*/
 				    String youmaylike=driver.findElement(By.xpath("//*[@class='ob-widget-header']")).getText();
-				    String expectedobtxt="You Might Also Like";
+				    String expectedobtxt="Promoted Stories";
 				    Assert.assertEquals(youmaylike, expectedobtxt);
 				    System.out.println(youmaylike);
 				}
